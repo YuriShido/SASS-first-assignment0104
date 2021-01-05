@@ -1,0 +1,6 @@
+//mixins 
+@mixin btn-animation($animation-name) {
+  animation-name: $animation-name;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
